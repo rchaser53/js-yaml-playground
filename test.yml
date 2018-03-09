@@ -1,0 +1,23 @@
+flat: true
+
+blank:
+
+normal:
+  number: 20
+
+complexed:
+  string: "moziretu"
+  number: 234
+  # comment
+  inner:
+    hoge: 'hoge'    # use singla quote
+    fuga: "fuga"
+  null: null
+  undefined: undefined # this becomes "undefined" (string)
+  blank:            # this becomes null
+  array:
+    - 1
+    - 2
+    - 3
+
+  # comment
